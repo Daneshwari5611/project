@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 25%, 97%);
+	
+	
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Styles */
+.navbar {
+	background-color: #565353;
+    color: #3d2c2c;
+    padding: 50px 30px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar .navbar-header a {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-toggle {
+    border: 1px solid #fff;
+    background-color: #201f1f;
+}
+
+.navbar .navbar-collapse {
+    background-color: #333;
+}
+
+.navbar .navbar-collapse ul {
+    list-style: none;
+}
+
+.navbar .navbar-collapse ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar .navbar-collapse ul li a:hover {
+    background-color: #e8dbdb;
+	color: black;
+}
+
+/* Header Styles */
+header#head h1 {
+	margin-left: 450px;
+}
+
+header#head .header-content {
+    max-width: 500px;
+}
+
+header#head h2 {
+    font-size: 50px;
+	color: black;
+
+}
+
+header#head p {
+    font-size: 20px;
+	color: black;
+	margin-left: 400px;
+}
+
+/* Courses Section Styles */
+#courses {
+    padding: 20px 0;
+}
+
+#courses h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-box a {
+    color: #333;
+    text-decoration: none;
+}
+
+.featured-box a:hover .text h3 {
+    color: #007bff;
+}
+
+.featured-box .fa {
+    margin-bottom: 10px;
+}
+
+.featured-box h3 {
+    margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.masthead {
+    background-image: url('https://cache.careers360.mobi/images/frontend/desktop/certification-header-bg-12.png');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    height: 400px; /* Makes the header full height of the viewport */
+    color: white; /* Optional: Adjust text color for readability */
+}
+
